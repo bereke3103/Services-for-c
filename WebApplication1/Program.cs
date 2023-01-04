@@ -1,19 +1,11 @@
 using WebApplication1.Services;
 
 var builder = WebApplication.CreateBuilder();
-
-
-builder.Services.AddTransient<ITimeService, ShortTimeService>();
+builder.Services.AddTransient<IHelloService, RuHelloService>();
+builder.Services.AddTransient<IHelloService, EnHelloService>();
 
 var app = builder.Build();
 
-app.Run(async context=>
-{
-    var timeService = app.Services.GetService<ITimeService>();
-
-    await context.Response.WriteAsync($"Time: {timeService.GetTime()}");
-});
+app.UseMiddleware<HelloMiddleware>();
 
 app.Run();
-
-

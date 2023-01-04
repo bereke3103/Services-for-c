@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\berek\\OneDrive\\Рабочий стол\\Draft-before-HNY\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
+    "C:\\Users\\Береке\\Desktop\\services\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\berek\\OneDrive\\Рабочий стол\\Draft-before-HNY\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
+    "C:\\Users\\Береке\\Desktop\\services\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\berek\\OneDrive\\Рабочий стол\\Draft-before-HNY\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "C:\\Users\\Береке\\Desktop\\services\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\Users\\berek\\OneDrive\\Рабочий стол\\Draft-before-HNY\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
-        "packagesPath": "C:\\Users\\berek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\berek\\OneDrive\\Рабочий стол\\Draft-before-HNY\\WebApplication1\\WebApplication1\\obj\\",
+        "projectPath": "C:\\Users\\Береке\\Desktop\\services\\WebApplication1\\WebApplication1.csproj",
+        "packagesPath": "C:\\Users\\Береке\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Береке\\Desktop\\services\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\berek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Береке\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,6 +26,7 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -68,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
